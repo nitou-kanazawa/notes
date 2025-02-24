@@ -2,7 +2,7 @@
 layout: post
 title: Markdown语法简介
 date: 2013-07-16
-Author: Shengbin 
+author: Shengbin 
 tags: [sample, markdown]
 comments: false
 toc: true
@@ -149,79 +149,4 @@ toc: true
 
 三个或更多个`*`、`-`（它们之间可以有空格）会产生横线：
 
-```
-* * *
 
-```
-
-效果：
-
-* * * * *
-
-## 链接
-
-内嵌链接：
-
-```
-[链接文字](链接地址 "链接描述") 
-例如 [Google](http://google.com/ "Google")，[Yahoo](http://search.yahoo.com/ "Yahoo Search")，[MSN](http://search.msn.com/ "MSN Search").
-
-```
-
-效果：
-
-[链接文字](链接地址 "链接描述") 
-例如 [Google](http://google.com/ "Google")，[Yahoo](http://search.yahoo.com/ "Yahoo Search")，[MSN](http://search.msn.com/ "MSN Search").
-
-
-如果直接以链接地址作为链接文本，可以用如下快捷写法：
-
-```
-<http://www.shengbin.me> 效果：
-
-```
-
-<http://www.shengbin.me> 
-
-## 强调
-
-单个`*`或`_`产生斜体，两个（`**`、`__`）则产生粗体。例如：
-
-```
-*斜体* _斜体_
-
-**粗体** **粗体**
-
-***又粗又斜*** ___又粗又斜___
-
-```
-
-效果：
-
-*斜体* _斜体_
-
-**粗体** **粗体**
-
-***又粗又斜*** ___又粗又斜___
-
-## 内嵌代码
-
-```
-内嵌代码 `天地玄黄`
-
-```
-
-效果：
-
-内嵌代码 `天地玄黄`
-
-## 图片
-
-语法和链接相似，只是前面多个“!”
-```
-![替代文字](图片url "图片说明")
-```
-
-## 转义字符
-
-如果需要使用以上标记字符而不被Markdown理解为格式标记，需要用`\`转义：例如`\\`，效果为\\。
