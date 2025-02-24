@@ -1,52 +1,36 @@
-#
-# 这个文档包含了本博客的设定信息，你可以编辑它来个性化自己的博客，
-#
-
-# 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
-# 注意，“name: LOFFER”，冒号后面的空格不可以省略。
-# 井号后面的文字是说明文档，不会被程序读取。
-
-# 描述/签名
-name: LOFFER
+# 基本設定
+name: NOTES
 description: 一个可以fork的博客
-
-# 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: 
-
-# 添加你的博客的二级域名，一般来说是你的repository名
-# 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
-# 那么就写成 "/repository-name"
-baseurl: /LOFFER
+url:   # サイトのURL（GitHub Pagesのデフォルトドメインを使うなら不要）
+baseurl: /notes  リポジトリ名
 
 
-#
-# 下面的设定都是可选的
-#
+# デザイン設定
 
-# 你的博客logo图片URL，建议尺寸不超过300px × 300px
+# サイトのロゴ画像（300 × 300 px）
 avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
-# 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
+# サイトのタブアイコン（推奨は64 × 64 px）
 favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
 
-
-# 菜单中的按钮
+# ナビゲーション
 navigation:
-  - name: 首页
+  - name: HOME
     url: /
-  - name: 关于
+  - name: ABOUT
     url: /about
-  - name: 归档
+  - name: ARCHIVE
     url: /archive
-  - name: 标签
+  - name: TAGS
     url: /tags
 
-# 每页的文章数
+# ページ毎の記事数
 paginate: 8
 
 # 文章简介的区分标记
 excerpt_separator: <!-- more -->
 
+# フッター
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
   weibo:  #请输入你的微博个性域名 https://www.weibo.com/<thispart>
@@ -89,9 +73,10 @@ google_analytics:
 utteranc:
   repo: # Your github repo path, also see: https://utteranc.es
 
-#
-# !! 以下所有设置都不需要更改 !!
-#
+
+
+# -----------------------------------------------
+# 以下はテーマ用の設定（変更不要）
 
 permalink: /:title/
 paginate_path: /page:num/
