@@ -9,14 +9,17 @@
 <!-- BODY要素 -->
 
 <body>
+  <!--  -->
   {% include nav.html %}
 
+  <!-- 目次 -->
   {% if page.toc==true %}
   <aside class="toc">
     {% include toc.html html=content %}
   </aside>
   {% endif %}
 
+  <!-- メイン -->
   <div id="main" role="main" class="wrapper-content">
     <div class="container">
       {{ content }}
