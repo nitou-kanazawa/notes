@@ -1,7 +1,5 @@
 
 [リンク](https://nitou-kanazawa.github.io/notes/)
-[リンク](https://nitou-kanazawa.github.io/notes/document/)
-
 
 ## 支持的功能
 
