@@ -7,11 +7,9 @@ baseurl: /notes # リポジトリ名
 
 # デザイン設定
 
-# サイトのロゴ画像（300 × 300 px）
-avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
-
-# サイトのタブアイコン（推奨は64 × 64 px）
-favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
+# アイコン
+avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png  # サイトのロゴ画像（300 × 300 px）
+favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png  # サイトのタブアイコン（推奨は64 × 64 px）
 
 # ナビゲーション
 navigation:
